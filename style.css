@@ -1,0 +1,156 @@
+:root{
+    --primary: #3c69e7;
+    --secundary: #d5ef0087;
+    --ligth: #fff;
+    --dark: #000;
+}
+
+body{
+    font-weight: normal;
+}
+
+.btn-primary{
+    background-color: var(--primary) !important;
+}
+
+.bg-secundary{
+    background-color: #d5ef0087 !important;
+}
+
+.text-secundary{
+    color: #d5ef0087 !important;
+}
+
+.text-primary{
+    color: var(--primary) !important;
+}
+
+.text-w{
+    color: white !important;
+}
+
+.text-b{
+    color: black !important;
+}
+
+.text-g{
+    color: rgba(95, 95, 95, 0.781) !important;
+}
+
+.navbar {
+    min-height: 90px;
+}
+
+.navbar .btn{
+    padding: .625rem 1.25rem;
+}
+
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+
+.content{
+    max-width: 500px;
+}
+
+.content-store{
+    max-width: 35%;
+}
+
+section{
+    height: 900px;
+}
+
+@media(max-width: 992px){
+    .navbar{
+        position: relative !important;
+    }
+    section{
+        height: unset;
+    }
+    
+    .step::after{
+        height: 70px !important;
+    }
+
+    div .div-store{
+        display: block !important;
+    }
+
+    .pb-media{
+        padding-bottom: 5% !important;
+    }
+
+    .content-store{
+        margin-right: 0% !important;
+    }
+
+    .display-none{
+        display: none !important;
+    }
+
+    #news{
+        display: none !important;
+    }
+
+    #news-mobile{
+        display: inherit !important;
+    }
+
+    .menu-movil{
+        padding-left: 3%;
+        border-radius: 10px;
+        background-color: #d5ef0087 !important;
+    }
+
+    .content-store{
+        max-width: 60%;
+    }
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.step{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.step::after{
+    content: '';
+    border-right: 1px solid var(--dark);
+    height: 40px;
+    position: absolute;
+    top: 34px;
+    opacity: .2;
+}
+
+#footer{
+    max-height: 400px;;
+}
+
+.content-footer-img{
+    max-width: 250px;
+}
+
+.bg-light{
+    background-color: var(--secundary) !important;
+}
+
+.call-to-action{
+    border-radius: 50px;
+}
+
+.content-news{
+    max-width: 100% !important;
+}
+
+.img-br{
+    border-radius: 10px;
+}
+
+#news-mobile{
+    display: none;
+}
